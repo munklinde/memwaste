@@ -30,7 +30,6 @@ memwaste& memwaste::operator=(const memwaste& other)
 	id = other.id;
 	return *this;
 }
-
 memwaste& memwaste::operator=(memwaste&& other)
 {
 	std::cout << "Making waste id:" << id << " by move asignment from id:"<< other.id << std::endl;

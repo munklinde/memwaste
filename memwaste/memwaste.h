@@ -1,5 +1,6 @@
 
-
+#ifndef __MEMWASTE_H__
+#define __MEMWASTE_H__
 
 class memwaste
 {
@@ -17,3 +18,5 @@ public:
 	memwaste& operator=(memwaste&& other);
 	memwaste(memwaste&& other) noexcept;
 };
+
+#endif

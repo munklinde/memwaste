@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lars/server/projects/cpp/memwaste/memwaste/memwaste.h
+
+/home/lars/server/projects/cpp/memwaste/test.cpp
+iostream
+-
+vector
+-
+memory
+-
+memwaste/memwaste.h
+/home/lars/server/projects/cpp/memwaste/memwaste/memwaste.h
+
