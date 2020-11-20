@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lars/server/projects/cpp/memwaste/memwaste/memwaste.cpp" "/home/lars/server/projects/cpp/memwaste/memwaste/CMakeFiles/MemWaste.dir/memwaste.cpp.o"
+  "/home/lars/server/projects/cpp/memwaste/test.cpp" "/home/lars/server/projects/cpp/memwaste/CMakeFiles/CMake_Test.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,6 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/lars/server/projects/cpp/memwaste/memwaste/CMakeFiles/MemWaste.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

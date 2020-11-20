@@ -30,6 +30,16 @@ memwaste& memwaste::operator=(const memwaste& other)
 	id = other.id;
 	return *this;
 }
+
+memwaste::~memwaste()
+{
+	std::cout << "Destroying waste id:" << id << std::endl;
+	if (pwaste!=0) delete[] pwaste;
+}
+
+
+#ifdef __CPP_20__
+
 memwaste& memwaste::operator=(memwaste&& other)
 {
 	std::cout << "Making waste id:" << id << " by move asignment from id:"<< other.id << std::endl;
@@ -53,10 +63,4 @@ memwaste::memwaste(memwaste&& other) noexcept
 	other.id=0;
 	other.pwaste=0;
 }
-
-
-memwaste::~memwaste()
-{
-	std::cout << "Destroying waste id:" << id << std::endl;
-	if (pwaste!=0) delete[] pwaste;
-}
+#endif

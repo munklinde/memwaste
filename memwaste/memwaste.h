@@ -2,6 +2,8 @@
 #ifndef __MEMWASTE_H__
 #define __MEMWASTE_H__
 
+#define __CPP_20__ 
+
 class memwaste
 {
 private:
@@ -15,8 +17,11 @@ public:
 	~memwaste();
 	memwaste(const memwaste& other);
 	memwaste& operator=(const memwaste& other);
+#ifdef __CPP_20__
 	memwaste& operator=(memwaste&& other);
 	memwaste(memwaste&& other) noexcept;
+#endif
+
 };
 
 #endif

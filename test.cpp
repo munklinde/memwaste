@@ -24,7 +24,7 @@ public:
 	{
 		std::vector<memwaste> container;
 
-	//	container.reserve(100);
+//		container.reserve(100);
 
 		for(int i=0;i<100;++i)
 		{
@@ -54,6 +54,7 @@ int main()
 //	tests::test01();
 //	tests::test02();
 	tests::test03();
+
 //	tests::test04();
 
 	return 0;

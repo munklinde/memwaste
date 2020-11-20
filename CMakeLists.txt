@@ -7,9 +7,9 @@ project(CMake_Test)
 project(CMake_Test VERSION 1.0)
 
 # specify the C++ standard
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-
+#set (CMAKE_C_FLAGS "fexceptions")
 # add the memwaste library
 add_subdirectory("${PROJECT_SOURCE_DIR}/memwaste")
 list(APPEND EXTRA_LIBS memwaste)
